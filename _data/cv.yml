@@ -2,96 +2,61 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Sungjun Han
     - name: Date of Birth
-      value: 14th March 1879
+      value: 30th March 1996
     - name: Languages
-      value: English, German
+      value: English (native), Korean (native), French (elementary)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master's in Computational Linguistics
+      institution: University of Stuttgart, Germany
+      year: 2020-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Thesis supervised by Prof. Pado on "Compositional Generalization through Learning to In-context Learn"
+        - Graduated with 1.2/5
+    - title: Bachelor's in Engineering Science - Math, Stats, Finance Option
+      institution: University of Toronto, Canada
+      year: 2016-2020
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis supervised by Prof. Lawryshyn on "Assessing Vendor Delivery through Delivery Time Prediction"
+        - Graduated with Honors (3.5/4)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Applied Scientist
+      institution: Amazon Alexa Speech
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - 6 month full-time research internship supervised by Dr. Deepak Baby and Dr. Valentin Medelev
+        - Worked on incremental learning for recurrent neural network transducer (RNN-T) for automatic speech recognition system using production english-US data
+        - Published the main research results at the conference 2022 IEEE Spoken Language Technology Workshop (SLT22)
+    - title: Research Scientist
+      institution: Mercedes-Benz Speech Technology
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - 5 month part-time research internship supervised by Dr. Stefan Ultes
+        - Worked on developing generative language models for efficient controllable generation for both task-oriented and chit-chat dialogue systems
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Data Analyst
+      institution: Scotiabank
+      year: 2018-2019
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Developed and maintained custom queries from the structured database using SQL
+        - Built a framework for automating the transfer of thousands of business records in Excel to a GUI data platform using Python and Selenium
+        - Developed a pipeline to store, process and convert data from a structured database into a required format for database migration in Python, SQL and VBScript 
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2016, 2017, 2019, 2020
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Dean's Honor's List
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> bjj, soccer, reading.
