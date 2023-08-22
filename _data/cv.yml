@@ -16,18 +16,18 @@
       year: 2020-2023
       description:
         - Thesis supervised by Prof. Pado on "Compositional Generalization through Learning to In-context Learn"
-        - Graduated with 1.2/5
+        - Graduated with 1.1/5 (high honors)
     - title: Bachelor's in Engineering Science - Math, Stats, Finance Option
       institution: University of Toronto, Canada
       year: 2016-2020
       description:
         - Thesis supervised by Prof. Lawryshyn on "Assessing Vendor Delivery through Delivery Time Prediction"
-        - Graduated with Honors (3.5/4)
+        - Graduated with 3.5/4 (honors)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Applied Scientist
+    - title: Applied Research Scientist
       institution: Amazon Alexa Speech
       year: 2021-2022
       description:
