@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 # Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 
 ---
-Hello! My name is Sungjun Han. I am an aspring scientist interested in studying how machines can make better representations of the world with minimal inductive bias. I am most interested in language processing in intersection with other machine learning topics including meta-learning, out-of-domain generalization, compositional generalization and continual learning.  
+Hello! My name is Sungjun Han. I am an aspring scientist interested in studying how machines can make better representations of the world using minimal inductive bias. I am most interested in language processing such as compositional generalization and other machine learning topics including meta-learning, out-of-domain generalization, and continual learning.  
 
 I received my Bachelor's in Engineering Science - Math, Stats, and Finance option at the University of Toronto in 2020. I worked with Prof. [Yuri Lawryshyn](https://www.labs.chem-eng.utoronto.ca/lawryshyn/) under [CMTE](https://www.cmte.utoronto.ca) for my Bachelor's thesis. Then I received my Master's degree in Computational Linguistics in 2023 working with Prof. [Sebastian Pado](https://nlpado.de/~sebastian/) under the [Institute of Natural Language Processing](https://www.ims.uni-stuttgart.de/en/institute/) at the University of Stuttgart. 
 
