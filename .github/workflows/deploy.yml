@@ -1,0 +1,53 @@
+name: deploy
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Assemble static site
+        run: |
+          mkdir -p _site
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='_site' \
+            --exclude='README.md' \
+            --exclude='LICENSE' \
+            --exclude='.gitignore' \
+            ./ _site/
+          touch _site/.nojekyll
+
+          # Cache-bust the stylesheet: GitHub Pages serves assets with
+          # max-age=600, so a returning visitor can pair new HTML with a stale
+          # stylesheet and get a broken layout. Stamp the CSS content hash into
+          # the query string so the browser is forced to refetch on any change.
+          HASH=$(md5sum _site/assets/css/main.css | cut -c1-10)
+          echo "css hash: $HASH"
+          find _site -name '*.html' -print0 \
+            | xargs -0 sed -i "s|main\.css?v=dev|main.css?v=$HASH|g"
+          grep -o 'main\.css?v=[a-z0-9]*' _site/index.html
+
+          ls -la _site
+
+      - name: Publish to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: _site
+          clean: true
+          single-commit: true
